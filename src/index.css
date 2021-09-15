@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.main-title {
+  @apply bg-sm-black-900 p-2;
+}
+
+.main-title-text {
+  @apply text-white font-medium;
+}
+
+.default-title {
+  @apply bg-sm-gray-100 p-2;
+}
+
+.default-title-text {
+  @apply font-medium text-sm-black-700;
+}

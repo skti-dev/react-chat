@@ -3,9 +3,9 @@ import { faComments } from "@fortawesome/free-solid-svg-icons";
 
 function Chat() {
   return (
-    <section className="chat h-screen w-2/6 border-r border-gray-300">
-      <div className="bg-gray-200 p-2">
-        <h1 className="font-medium"> 
+    <section className="h-screen w-2/6 border-r border-sm-gray-100">
+      <div className="default-title">
+        <h1 className="default-title-text"> 
           <FontAwesomeIcon className="mr-2" icon={faComments} />
           Chat 
         </h1>

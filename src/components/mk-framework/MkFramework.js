@@ -3,9 +3,9 @@ import { faInfo } from "@fortawesome/free-solid-svg-icons";
 
 function MkFramework() {
   return (
-    <section className="mk-framework h-screen w-3/6">
-      <div className="bg-gray-200 p-2">
-        <h1 className="font-medium"> 
+    <section className="h-screen w-3/6">
+      <div className="default-title">
+        <h1 className="default-title-text"> 
           <FontAwesomeIcon className="mr-2" icon={faInfo} />
           MkFramework 
         </h1>
